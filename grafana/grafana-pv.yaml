@@ -3,6 +3,7 @@ kind: PersistentVolume
 metadata:
   name: grafana-pv
 spec:
+  storageClassName: ""
   accessModes:
     - ReadWriteOnce
   capacity:
